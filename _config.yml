@@ -41,7 +41,7 @@ social_username: ingridhsu_
 theme_color: light
 
 # Build settings
-theme: jekyll-athena
+remote_theme: "broccolini/athena"
 plugins:
   - jekyll-feed
 markdown: kramdown
