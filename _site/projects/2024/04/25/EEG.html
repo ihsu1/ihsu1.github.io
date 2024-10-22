@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/home/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/home/favicon.ico" type="image/x-icon">
+
+  <title>EEG Emotion Recognition</title>
+  <meta name="description" content="This project was the symposium project for my high school Advanced AI course. It is a model that classifies brain EEGs (signals measuring electrical activity...">
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:4000/home/assets/style.css">
+
+  <link rel="canonical" href="http://localhost:4000/home/projects/2024/04/25/EEG.html">
+  <link rel="alternate" type="application/rss+xml" title="Ingrid Hsu" href="http://localhost:4000/home/feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+  
+  <!-- font-smoothing is only applied on dark themes -->
+  <body class="font-smoothing">
+
+    <header class="px-2 clearfix">
+  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
+    <a class="no-underline-hover px-1" href="/home/">
+      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
+    </a>
+    <a class="italic no-underline" href="/home/">
+       home
+    </a>
+  </div> -->
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+        <a class="italic h4 bold no-underline" href="/home/">
+          <!-- Ingrid Hsu -->
+          Home
+        </a>
+      </li>
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/home/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/home/contact/">
+            Contact
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/home/education/">
+            Education
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/home/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/home/resume/">
+            Resume
+          </a>
+        </li>
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</header>
+
+
+    <div>
+      <article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="mt-4 mb-2 clearfix header-text">
+    <h1 class="h0 inline-block py-2 mt-4 header-title">EEG Emotion Recognition</h1>
+    <div class="clearfix mb-4 py-1">
+      <p class="h4 lh-condensed"><time datetime="2024-04-25T00:00:00-04:00" itemprop="datePublished">Apr 25, 2024</time></p>
+      <div class="col-1 sm-width-full border-top-thick">
+      </div>
+    </div>
+  </div>
+
+  <div class="prose py-4" itemprop="articleBody">
+      <p>This project was the symposium project for my high school Advanced AI course. It is a model that classifies brain EEGs (signals measuring electrical activity in the brain) with a corresponding emotional state (positive, negative, or neutral). This dataset didn’t require preprocessing of raw EEGs, which was a big part of my previous EEG project. Instead, the dataset I used came with already cleaned and processed data, so the main component of this project was building the model to classify. The final goal for this project was to extend this model’s application to individuals with Autism Spectrum Disorder, providing support and enhancing well-being through improved emotional regulation/social skills within this user-group.</p>
+
+<p>My process consisted of: Exploratory data analysis , standard scaling , MLP model , neural network , model evaluation. The MLP (based on the papers linked below) and feedforward neural network reached around 94% and 97% accuracies for each model respectively.</p>
+<ul>
+  <li>Dataset: <a href="https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions/data">EEG Brainwave Dataset: Feeling Emotions</a></li>
+  <li>Papers:
+    <ul>
+      <li><a href="https://www.researchgate.net/publication/329403546_Mental_Emotional_Sentiment_Classification_with_an_EEG-based_Brain-machine_Interface">Mental Emotional Sentiment Classification with an EEG-based Brain-machine Interface</a></li>
+      <li><a href="https://www.researchgate.net/publication/335173767_A_Deep_Evolutionary_Approach_to_Bioinspired_Classifier_Optimisation_for_Brain-Machine_Interaction">A Deep Evolutionary Approach to Bioinspired Classifier Optimisation for Brain-Machine Interaction</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Check out the <a href="https://github.com/ihsu1/EEGEmotionRecognition">Github</a> for the code!</p>
+
+
+  </div>
+</article>
+
+
+<div class="container mx-auto px-2 py-2 clearfix">
+  <!-- Use if you want to show previous and next for posts within a category. -->
+
+
+
+
+
+<div class="col-4 sm-width-full left mt-3">
+  <a class="no-underline-hover py-1 block" href="http://localhost:4000/home/projects/2024/09/13/PicFilter-copy.html">
+    <span class="h5 bold">Next</span>
+    <p class="bold h3 link-primary mb-1">PicFilter</p>
+    <p>This project was the second lab of my CPSC 035 Data Structures and Algorithms course. The task was to apply...</p>
+  </a>
+</div>
+
+
+</div>
+
+    </div>
+
+    <div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
+  <div class="border-top-thick">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/ihsu1">ihsu1</a></p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+          <a href="https://www.linkedin.com/in/ingrid-hsu/" target="_blank" class="linkedin-link" aria-label="LinkedIn Profile">
+            <img src= "/home/assets/images/linkedin-icon.png" style="width: 30px; height: 30px;"/>
+          </a>
+        </li>
+        <li class="inline-block mr-1">
+          <a href="https://github.com/ihsu1" target="_blank" class="github-link" aria-label="GitHub Profile">
+            <img src="/home/assets/images/github-icon.png" style="width: 30px; height: 30px;"/>
+          </a>
+        </li>
+        <li class="inline-block mr-1">
+          <a href="mailto:ingridhsu8@gmail.com" class="email-link" aria-label="Email">
+            <img src="/home/assets/images/email-icon.png" alt="ingridhsu8@gmail.com" style="width: 30px; height: 30px;" />
+          </a>
+        </li>
+        </li>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
