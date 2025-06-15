@@ -14,7 +14,7 @@ Candidate for B.A. in Computer Science and Philosophy
 
 Expected Graduation: May 2028
 >
-> Relevant Coursework: Data Structures and Algorithms, Competitive Programming, Linear Algebra with Theory, Logic, The World of Particles and Waves, Democracy and Technology
+> Relevant Coursework: Data Structures and Algorithms, Introduction to Computer Systems, Competitive Programming, Machine Learning (Fall ‘25), Linear Algebra with Theory, Several-Variable Calculus with Theory, Real Analysis I (Fall ‘25), Logic, Moral Philoosphy (Fall '25), The World of Particles and Waves, Democracy and Technology, Cognitive Neuroscience
 
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">
   <img src="{{ '/assets/images/milton.png' | relative_url }}" alt="Description" style="width: 100px; height: auto;" />
@@ -26,7 +26,7 @@ High School Diploma
 
 Graduated: June 2024
 >
-> Relevant Coursework: Advanced Topics in AI, Advanced CS: AI and ML, Multivariable Calculus, Calculus (Accelerated), Moral Philosophy
+> Relevant Coursework: Advanced Topics in AI, Advanced CS: AI and ML, Multivariable Calculus, AP Calculus, Moral Philosophy
 >
 > Activities and societies: Co-head, Girls Who Code; Founder, Co-head, Fashion & Design; Layout Editor, Board Member, The F-Word (student-run feminist publication); Peer Writing Tutor, Milton Academy English Department; Varsity Swimmer
 
