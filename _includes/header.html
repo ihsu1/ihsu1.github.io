@@ -1,4 +1,5 @@
-<header class="px-2 clearfix">
+<!-- <header class="px-2 clearfix"> -->
+
   <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
     <a class="no-underline-hover px-1" href="{{ site.baseurl }}/">
       <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
@@ -7,12 +8,13 @@
        home
     </a>
   </div> -->
-  <div class="right-lg absolute-lg right-0 top-0">
-    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0"> -->
+    <!-- <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
       <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
+        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/"> -->
           <!-- {{ site.title }} -->
-          Home
+          <!-- Home
         </a>
       </li>
       {% for my_page in site.pages %}
@@ -23,6 +25,34 @@
           </a>
         </li>
         {% endif %}
+      {% endfor %} -->
+    <!-- </ul>
+  </div>
+</header> -->
+
+<header class="px-2 clearfix">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3 list-reset">
+      {% for item in site.nav %}
+        {% unless page.url == "/" and item.title == "Home" %}
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline {% if page.url == item.url %}bold{% endif %}" href="{{ item.url | prepend: site.baseurl }}">
+              {{ item.title }}
+            </a>
+
+            {% if item.children %}
+              <ul class="dropdown">
+                {% for child in item.children %}
+                  <li>
+                    <a class="italic no-underline h5" href="{{ child.url | prepend: site.baseurl }}">
+                      {{ child.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endunless %}
       {% endfor %}
     </ul>
   </div>

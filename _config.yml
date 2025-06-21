@@ -46,7 +46,29 @@ plugins:
   - jekyll-feed
 markdown: kramdown
 
-
+# Navigation Bar
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+  - title: Education
+    url: /education/
+  - title: Projects
+    url: /projects/
+  - title: Résumé
+    url: /resume/
+  - title: Art
+    url: /art/
+    children: 
+      - title: Breadth
+        url: /art/breadth/
+      - title: Series
+        url: /art/series/
+      - title: Art Curriculum Vitae
+        url: /art/art_cv/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
