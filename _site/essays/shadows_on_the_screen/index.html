@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/assets/images/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/images/icon.png" type="image/x-icon">
+
+  <title>Shadows on the Screen: Truth, Technology, and the New Cave</title>
+  <meta name="description" content="Computer Science and Philosophy double major at Swarthmore College interested in AI, cognitive science, and tech ethics.">
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:4000/assets/style.css">
+
+  <link rel="canonical" href="http://localhost:4000/essays/shadows_on_the_screen/">
+  <link rel="alternate" type="application/rss+xml" title="Ingrid Hsu" href="http://localhost:4000/feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+  
+  <!-- font-smoothing is only applied on dark themes -->
+  <body class="font-smoothing">
+
+    <!-- <header class="px-2 clearfix"> -->
+
+  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
+    <a class="no-underline-hover px-1" href="/">
+      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
+    </a>
+    <a class="italic no-underline" href="/">
+       home
+    </a>
+  </div> -->
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0"> -->
+    <!-- <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+        <a class="italic h4 bold no-underline" href="/"> -->
+          <!-- Ingrid Hsu -->
+          <!-- Home
+        </a>
+      </li>
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/">
+            Art
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/art_cv">
+            Art Curriculum Vitae
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/brain_invaders/">
+            Brain Invaders: The Final Frontier of Surveillance Capitalism
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/breadth/">
+            Breadth
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/contact/">
+            Contact
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/education/">
+            Education
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/resume/">
+            Résumé
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series1/">
+            Series 1- Life Through Machines
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series2/">
+            Series 2- Inorganic Anatomy
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/shadows_on_the_screen/">
+            Shadows on the Screen: Truth, Technology, and the New Cave
+          </a>
+        </li>
+        
+      
+        
+      
+        
+       -->
+    <!-- </ul>
+  </div>
+</header> -->
+
+<header class="px-2 clearfix">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3 list-reset">
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/">
+              Home
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/about/">
+              About
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/contact/">
+              Contact
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/education/">
+              Education
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/projects/">
+              Projects
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/resume/">
+              Résumé
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/art/">
+              Art
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/breadth/">
+                      Breadth
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series1/">
+                      Series 1- Life Through Machines
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series2/">
+                      Series 2- Inorganic Anatomy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/art_cv/">
+                      Art Curriculum Vitae
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/essays/">
+              Essays
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/brain_invaders/">
+                      Brain Invaders: The Final Frontier of Surveillance Capitalism
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/shadows_on_the_screen/">
+                      Shadows on the Screen: Truth, Technology, and the New Cave
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+    </ul>
+  </div>
+</header>
+
+    <div>
+      <!-- <header class="px-2 clearfix"> -->
+
+  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
+    <a class="no-underline-hover px-1" href="/">
+      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
+    </a>
+    <a class="italic no-underline" href="/">
+       home
+    </a>
+  </div> -->
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0"> -->
+    <!-- <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+        <a class="italic h4 bold no-underline" href="/"> -->
+          <!-- Ingrid Hsu -->
+          <!-- Home
+        </a>
+      </li>
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/">
+            Art
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/art_cv">
+            Art Curriculum Vitae
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/brain_invaders/">
+            Brain Invaders: The Final Frontier of Surveillance Capitalism
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/breadth/">
+            Breadth
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/contact/">
+            Contact
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/education/">
+            Education
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/resume/">
+            Résumé
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series1/">
+            Series 1- Life Through Machines
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series2/">
+            Series 2- Inorganic Anatomy
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/shadows_on_the_screen/">
+            Shadows on the Screen: Truth, Technology, and the New Cave
+          </a>
+        </li>
+        
+      
+        
+      
+        
+       -->
+    <!-- </ul>
+  </div>
+</header> -->
+
+<header class="px-2 clearfix">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3 list-reset">
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/">
+              Home
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/about/">
+              About
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/contact/">
+              Contact
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/education/">
+              Education
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/projects/">
+              Projects
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/resume/">
+              Résumé
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/art/">
+              Art
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/breadth/">
+                      Breadth
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series1/">
+                      Series 1- Life Through Machines
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series2/">
+                      Series 2- Inorganic Anatomy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/art_cv/">
+                      Art Curriculum Vitae
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/essays/">
+              Essays
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/brain_invaders/">
+                      Brain Invaders: The Final Frontier of Surveillance Capitalism
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/shadows_on_the_screen/">
+                      Shadows on the Screen: Truth, Technology, and the New Cave
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+    </ul>
+  </div>
+</header>
+
+<article class="container mx-auto px-2">
+
+  <div class="mt-4 mb-2 clearfix header-text">
+  <h1 class="h0 inline-block py-0 mt-2 header-title">Shadows on the Screen: Truth, Technology, and the New Cave</h1>
+  <div class="clearfix mb-0 py-0">
+    <div class="col-1 sm-width-full border-top-thick">
+  </div>
+</div>
+
+
+  <div class="prose mb-4 py-4">
+    <h1 id="social-media-the-black-experience-and-the-struggle-for-truth-in-the-age-of-blm"><em>Social Media, the Black Experience, and the Struggle for Truth in the Age of BLM</em></h1>
+
+<p><br /></p>
+
+<p>Both <em>The Fire Next Time</em> and <em>The Fire This Time</em> demonstrate how anti-blackness in this country exists within a “continuing feedback loop.” All current events hold some parallel in history; in the case of racial injustice in America, “we cannot talk about black lives mattering or police brutality without reckoning the very foundation of this country” (Ward, 9). The past is inextricably interwoven with the present, and both hold undeniable impact on the future. But with recent, rapid technological advancement, how is the current fight against racial injustice different from the past? Historically, periods of technological progress are often categorized as “revolutions,” such as the Agricultural Revolution or the Industrial Revolution– could the new digital age, with the increased information-accessibility of the internet/social media and increased task-efficiency of AI, play a major role in combating social injustice? Or will it only exaggerate existing issues? How do we utilize technology to make greater progress in the future? Through the frame of Plato’s “Allegory of the Cave,” this paper explores how technology, specifically social media, relates to the truth: it makes the light more accessible yet harder to distinguish from other caves. Overall, the creation of social media has had undeniable, hopeful impact on the empowerment of change-driving voices.</p>
+
+<h2 id="part-i-the-pros">Part I: The Pros</h2>
+<p>Modern technology, specifically social media, empowers voices of marginalized communities by shifting power structures of traditional media, increasing accessibility of resources, and creating safe communities. As a platform and tool for activists, social media essentially brings the light to people stuck in the cave, like a ramp or ladder or megaphone, increasing exposure and decreasing obstacles to the truth. Social media supports communication between the inside and outside of the cave.</p>
+
+<p>Social media shifts power away from traditional media. In the past, as described in “Message to my Daughters,” “there were no cell phone cameras back then to record such abuse” (Danticat, 208). Societal information was directed by the news. The news was decided by people in power. The “truth,” the shadows playing on the walls of the cave, was designed and directed by people in power for personal gain. Now, supposedly anyone can post anything they see, think, experience, or believe. Ward put it perfectly: “Twitter seemed like a great social forum, a virtual curia, a place designed to give us endless voice in declarations of 140 characters or fewer” (Ward, 3). By providing an “endless voice” to everyone with access to the internet, social media redistributes power to civilians and allows for higher surveillance of government and other groups in power, offering increased opportunity to participate politically. For example, in the past, the only worry for the police when abusing their power was white witnesses in more liberal locations– traditional sources of media were not about to report the common occurrence of the police assaulting a black man. But now, crimes are filmed and posted as a form of holding individuals and institutions accountable. With the accessibility of visual evidence, the truth is directly in front of those stuck in the cave. As said in “The Condition of Black Life is One of Mourning,” “it’s one thing to imagine nine black bodies bleeding out on a church floor, and another thing to see it”; “we need to see or hear the truth” (Rankine, 148, 152). Those in the cave no longer have to navigate the journey of actively searching for the truth. Instead, they just need to turn their heads. Like holding an open-casket funeral, posting on social media can be considered another form of disidentification “with the tradition of the lynched figure left out in public view as a warning to the black community” (Rankine, 148). Now, the “lynched figures” are evidence to hold perpetrators accountable for their crimes through taking away the power of the shadow-makers.</p>
+
+<p>Besides shifting power, social media also increases the reach and accessibility of news and certain topics to a wider range of people. While <em>The Fire This Time</em> offers a permanent collection of writing on the black experience, social media has the power of further influence, reaching a larger and more varied group of people. Readers of <em>The Fire This Time</em> have likely already read Baldwin and are actively searching for a collection to express similar experience, as Ward described in her introduction. They have to be looking for the collection to see its truth. But with social media, it’s up to the algorithm. There are complexities to what the algorithm shows, but social media can potentially bring unfamiliar content to more users who are not necessarily looking for it. Once again, social media acts like both a step ladder for the people inside the cave and a megaphone for those outside trying to share their truth, bridging the communication gap between the two by fostering more opportunity for interaction.</p>
+
+<p>By creating a space for communities to form, social media also encourages people outside of the cave to help those inside. On social media, everyone has a voice. Baldwin is no longer perceived as the only representative of the black experience. Everyone can share their own thoughts and ideas. In such a space, communities form. In “Blacker Than Thou,” Young describes a “Black Twitter,” while in the Introduction, Ward uses Twitter to “[give] voice to my frustration my anger and my fear [, sharing] news and updates and photos and anything we could find about Trayvon” (Young, 102)(Ward, 3). Social media is able to not only reach more varied people, but also bring like-minded people together, “[creating] community both within our own community and beyond it” (Ward, 10). Communities are important because they create belonging. A space where you belong, a space that confirms you are not alone, fosters resistance. As Baldwin put it, “you can only be destroyed by believing that you really are what the white world calls a [n word]” (Baldwin, 4). Reassurance of self-worth provided by the community of social media empowers people to speak out about personal experience. For oppressed people, “sharing our stories confirms our humanity,” a ray of hope shining through. This community-supported light works to bring others out of the cave; after all, a united voice is louder than one alone.</p>
+
+<h2 id="part-ii-the-cons">Part II: The Cons</h2>
+<p>But what if the light spread by social media is fake, just a tunnel to another cave disguised as a way out? Like with most inventions, practical application introduces added complexities to the simplified benefits of social media. The same features of social media that make it so powerful for change, like its wide reach and large community of voices, also make it a platform for mis/disinformation, targeting and controlling abuse of the algorithm, and desensitization to important issues.</p>
+
+<p>The accessibility and convenience of social media make it easier to spread not only the truth, but also lies. With social media, it becomes harder to differentiate the light from a tunnel and easier to be led into a different cave. Misinformation is everywhere, especially online, and internet literacy is rarely taught. People believe what they see; there are countless examples of misinformation spreading at an alarming speed, whether in celebrity culture or political elections. The rapid development of generative AI and image/voice editing software, like “Deepfakes,” also makes disinformation easier than ever and people underprepared to counter it. Furthermore, supposed anonymity of online communication only exaggerates the toxic hostility and possible violence and hate speech surrounding these viral topics. As a result, social media’s power to spread disinformation can be weaponized, like through racist propaganda, so instead of spreading the light, social media could be disguising tunnels to separate caves, herding unsuspecting victims through. The utilization of this virality all depends on the algorithms: the mysterious keys to social media’s success. Different apps have slightly different algorithms, and the effectiveness of an algorithm is often a major factor in the app’s success. TikTok, for example, is known for its incredibly targeted algorithm and the resulting addictiveness of its short videos. The algorithm wants to show you things you like. It learns what you like based on what you have already viewed and interacted with. So the algorithm will continue to show you things suiting your pre-existing beliefs, in turn doubling down on your opinion and fragmenting society by creating extreme polarizations. Therefore, social media can not only exaggerate the spread of misinformation, but it can also support intentional disinformation through personalized virality; the light could easily lead into another cave.</p>
+
+<p>Whether specifically through the spread of disinformation or not, in many ways, what makes “news” on social media is still directed by those in power. By appealing to the algorithm, companies are able to express a certain degree of power over what gets shown to whom, and people with more traditional forms of power are able to better exploit the algorithm. And while the shift away from traditional media does offer a more accessible voice to everyone, the social media platforms themselves are still privately owned, with profit-directed interests. The power transfers to those in charge of the tech companies (also typically white men), which can furthermore be regulated and influenced by other powerful people. With social media, the user is the product, not the app. Corporations like Facebook and Google make their money through ad revenue. So the whole point of the platforms is to show the user what the user wants to see, what keeps them excited, and what will keep them using the app. The more the algorithm understands the user, the more targeted the advertisements can be, and the more money the corporations make. Corporations don’t hard-code their algorithms: there is no explicit, infinite decision tree deciding which exact video to show in each circumstance. But they are able to exert some amount of control over what you see, forming the shadows on the walls or the tunnels between caves. For example, there have been testimonies from whistleblowers of Facebook amplifying misinformation and even hate speech for its own gain. With digital privacy concerns over tracking and targeting, technology actually allows for more control than ever before. According to Stanford Law School Professor Nate Persily, “Google and Facebook have more power over the information ecosystem than any institution since the pre-Reformation Catholic Church. Their algorithms and their content moderation policies are taking the form of law.” Private corporations hold the power now. And this corporate ownership still allows for government intervention and censorship– specific hashtags can be hidden or accounts can be blacklisted to be disfavored by the algorithm. So while power shifts with social media, it may very well shift to very similar, if not the same, types of people. In the cave, it’s like a semi-sheer curtain shielding from the light. Or it’s like more tunnels, more caves, before realizing the entire thing is a maze system controlled and designed by others.</p>
+
+<p>The constant virality and sensation of social media also desensitizes, reducing the extremity of important issues. As Ward addressed in her introduction, “the ephemera of Twitter, the way the voices of the outraged public rose and sank so quickly, flitting from topic to topic, disappointed me” (Ward, 6). With “the rate of police killings [surpassing] the rate of lynchings during the worst decades of the Jim Crow era” <em>and</em> the increased accessibility to a concerningly rapid influx of information, distinguishing between caves and lights and all sorts of stimulation becomes difficult, and the impact of the light dims: “we live in a country where Americans assimilate corpses in their daily comings and goings. Dead blacks are a part of normal life here.” (Rankine, 147) This consequent desensitization to hate and violence from constant stimuli reduces the meaning, the human empathy, behind injustice, which then contributes to the idea of “performative activism.” With the use of social media to hold people “accountable,” new terms like “cancel culture” and “performative justice” come to light, resulting in the “ephemera of Twitter” Ward witnessed. With performative justice, people post about specific trending social justice issues to be a part of the trend, to prove “wokeness.” These trends die out quickly with varying levels of impact, potentially reducing entire movements to gimmicks. Sometimes, even performative justice done with the wrong intentions is still helpful to get people talking, to spread the light. But other times, it can distract from the bigger picture. With the Black Lives Matter movement in 2020, the black profile picture and posts of Instagram actually blocked posts of real news and achieved little to nothing, even though much of the other online activity regarding BLM at the time led to tangible action. These performative justice movements, which are also often commercialized by companies (e.g. profile picture changes during pride month), help soothe the conscience and reduce feelings of complacence. Similar to how Baldwin describes white people underestimating struggles, or how Rankine says “though the white liberal imagination likes to feel temporarily bad about black suffering there really is no mode of empathy that can replicate the daily strain of knowing that as a black person you can be killed for simply being black,” people are happy to be comforted in their own sitting of the cave, growing used to attempts trying to save them (Rankine, 146). With social media, the lights and shouts from outside the cave appear the same as the scenes of the shadows that distract them, and they refuse to turn their heads to the truth, liking the play in front of them more.</p>
+
+<p>Ultimately, social media can bring people to the entrance to the cave or bring the light to them, but it can’t force people to see, to exit. The power of social media and technology is only realized if people are willing to leave the cave. There’s no way to force someone out if they do not want to leave. You can bring them all the way to the entrance of the cave, but if they refuse to turn their head, they will never see the light. Despite its challenges, the power of social media to empower voices and make information accessible makes a major difference. As Baldwin put it, “we cannot be free until they are free” (Baldwin, 10). The first step is freedom of accessible truth for those in the cave. Not everybody who sees the truth will recognize it; with Michael Brown, “it would be a mistake to presume that everyone who saw the image mourned Brown, but once exposed to it a person had to decide whether his dead black body mattered enough to be mourned” (Rankine, 149). Black Lives Matter is asking for internalized recognition: “we can’t get there without fully recognizing what is here”(Rankine, 151). “We need to see or hear the truth. We need the truth of how the bodies died to interrupt the course of normal life” (Rankine, 152). The hope is that online movements will increase accessibility to the truth and support this type of recognition. Censorship and misinformation were possible with traditional media, but at least with social media more people will have increased opportunities to leave the cave. By providing these opportunities, social media becomes a key player of social justice during the digital revolution.</p>
+
+<h2 id="citations">Citations:</h2>
+
+<p>Ward, Jesmyn, editor. <em>The Fire This Time: A New Generation Speaks about Race</em>. Scribner, 2017.</p>
+
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
+  <div class="border-top-thick">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/ihsu1">ihsu1</a></p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+          <a href="https://www.linkedin.com/in/ingrid-hsu/" target="_blank" class="linkedin-link" aria-label="LinkedIn Profile">
+            <img src= "/assets/images/linkedin-icon.png" style="width: 30px; height: 30px;"/>
+          </a>
+        </li>
+        <li class="inline-block mr-1">
+          <a href="https://github.com/ihsu1" target="_blank" class="github-link" aria-label="GitHub Profile">
+            <img src="/assets/images/github-icon.png" style="width: 30px; height: 30px;"/>
+          </a>
+        </li>
+        <li class="inline-block mr-1">
+          <a href="mailto:ingridhsu8@gmail.com" class="email-link" aria-label="Email">
+            <img src="/assets/images/email-icon.png" alt="ingridhsu8@gmail.com" style="width: 30px; height: 30px;" />
+          </a>
+        </li>
+        </li>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>

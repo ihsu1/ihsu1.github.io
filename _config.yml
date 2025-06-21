@@ -65,10 +65,19 @@ nav:
     children: 
       - title: Breadth
         url: /art/breadth/
-      - title: Series
-        url: /art/series/
+      - title: Series 1- Life Through Machines
+        url: /art/series1/
+      - title: Series 2- Inorganic Anatomy
+        url: /art/series2/
       - title: Art Curriculum Vitae
         url: /art/art_cv/
+  - title: Essays
+    url: /essays/
+    children:
+      - title: "Brain Invaders: The Final Frontier of Surveillance Capitalism"
+        url: /essays/brain_invaders/
+      - title: "Shadows on the Screen: Truth, Technology, and the New Cave"
+        url: /essays/shadows_on_the_screen/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

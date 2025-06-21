@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/assets/images/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/images/icon.png" type="image/x-icon">
+
+  <title>Brain Invaders: The Final Frontier of Surveillance Capitalism</title>
+  <meta name="description" content="Computer Science and Philosophy double major at Swarthmore College interested in AI, cognitive science, and tech ethics.">
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:4000/assets/style.css">
+
+  <link rel="canonical" href="http://localhost:4000/essays/brain_invaders/">
+  <link rel="alternate" type="application/rss+xml" title="Ingrid Hsu" href="http://localhost:4000/feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+  
+  <!-- font-smoothing is only applied on dark themes -->
+  <body class="font-smoothing">
+
+    <!-- <header class="px-2 clearfix"> -->
+
+  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
+    <a class="no-underline-hover px-1" href="/">
+      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
+    </a>
+    <a class="italic no-underline" href="/">
+       home
+    </a>
+  </div> -->
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0"> -->
+    <!-- <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+        <a class="italic h4 bold no-underline" href="/"> -->
+          <!-- Ingrid Hsu -->
+          <!-- Home
+        </a>
+      </li>
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/">
+            Art
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/art_cv">
+            Art Curriculum Vitae
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/brain_invaders/">
+            Brain Invaders: The Final Frontier of Surveillance Capitalism
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/breadth/">
+            Breadth
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/contact/">
+            Contact
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/education/">
+            Education
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/resume/">
+            Résumé
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series1/">
+            Series 1- Life Through Machines
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series2/">
+            Series 2- Inorganic Anatomy
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/shadows_on_the_screen/">
+            Shadows on the Screen: Truth, Technology, and the New Cave
+          </a>
+        </li>
+        
+      
+        
+      
+        
+       -->
+    <!-- </ul>
+  </div>
+</header> -->
+
+<header class="px-2 clearfix">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3 list-reset">
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/">
+              Home
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/about/">
+              About
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/contact/">
+              Contact
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/education/">
+              Education
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/projects/">
+              Projects
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/resume/">
+              Résumé
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/art/">
+              Art
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/breadth/">
+                      Breadth
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series1/">
+                      Series 1- Life Through Machines
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series2/">
+                      Series 2- Inorganic Anatomy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/art_cv/">
+                      Art Curriculum Vitae
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/essays/">
+              Essays
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/brain_invaders/">
+                      Brain Invaders: The Final Frontier of Surveillance Capitalism
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/shadows_on_the_screen/">
+                      Shadows on the Screen: Truth, Technology, and the New Cave
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+    </ul>
+  </div>
+</header>
+
+    <div>
+      <!-- <header class="px-2 clearfix"> -->
+
+  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
+    <a class="no-underline-hover px-1" href="/">
+      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
+    </a>
+    <a class="italic no-underline" href="/">
+       home
+    </a>
+  </div> -->
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0"> -->
+    <!-- <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+        <a class="italic h4 bold no-underline" href="/"> -->
+          <!-- Ingrid Hsu -->
+          <!-- Home
+        </a>
+      </li>
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/">
+            Art
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/art_cv">
+            Art Curriculum Vitae
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/brain_invaders/">
+            Brain Invaders: The Final Frontier of Surveillance Capitalism
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/breadth/">
+            Breadth
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/contact/">
+            Contact
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/education/">
+            Education
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/resume/">
+            Résumé
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series1/">
+            Series 1- Life Through Machines
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series2/">
+            Series 2- Inorganic Anatomy
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/shadows_on_the_screen/">
+            Shadows on the Screen: Truth, Technology, and the New Cave
+          </a>
+        </li>
+        
+      
+        
+      
+        
+       -->
+    <!-- </ul>
+  </div>
+</header> -->
+
+<header class="px-2 clearfix">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3 list-reset">
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/">
+              Home
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/about/">
+              About
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/contact/">
+              Contact
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/education/">
+              Education
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/projects/">
+              Projects
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/resume/">
+              Résumé
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/art/">
+              Art
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/breadth/">
+                      Breadth
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series1/">
+                      Series 1- Life Through Machines
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series2/">
+                      Series 2- Inorganic Anatomy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/art_cv/">
+                      Art Curriculum Vitae
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/essays/">
+              Essays
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/brain_invaders/">
+                      Brain Invaders: The Final Frontier of Surveillance Capitalism
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/shadows_on_the_screen/">
+                      Shadows on the Screen: Truth, Technology, and the New Cave
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+    </ul>
+  </div>
+</header>
+
+<article class="container mx-auto px-2">
+
+  <div class="mt-4 mb-2 clearfix header-text">
+  <h1 class="h0 inline-block py-0 mt-2 header-title">Brain Invaders: The Final Frontier of Surveillance Capitalism</h1>
+  <div class="clearfix mb-0 py-0">
+    <div class="col-1 sm-width-full border-top-thick">
+  </div>
+</div>
+
+
+  <div class="prose mb-4 py-4">
+    <h2 id="how-realistic-of-a-prospect-is-surveillance-and-modification-of-the-mind-using-the-framework-of-surveillance-capitalism-what-are-the-possible-political-social-and-ethical-considerations-of-such-a-prospect"><em>How realistic of a prospect is surveillance (and modification) of the mind? Using the framework of surveillance capitalism, what are the possible political, social, and ethical considerations of such a prospect?</em></h2>
+
+<p><br /></p>
+
+<p>In <em>The Age of Surveillance Capitalism</em>, Shoshana Zuboff introduces surveillance capitalism, a logic used by technology corporations to unilaterally claim human experience for the hidden, nonconsensual, and for-profit creation and modification of behavioral prediction products. She describes the evolution of surveillance capitalism from invasions of privacy online to real-world to social-world and finally to behavioral modification. This paper focuses on the last and most strongly protected frontier of privacy, the mind, as an untapped source of behavioral surplus in a new tier of surveillance capitalism. Invasion of the mind is distinctly unprecedented, and exploring the likelihoods, considerations, and implications of the current and possible future state of neurotechnology will hopefully prepare the sociopolitical protection of our neural privacy and cognitive freedom from unwanted surveillance, modification, and dispossession.</p>
+
+<p>The mind and the brain are distinct– while the brain refers to a physical organ, the mind refers to mental states, things like thoughts, emotions, imagination, perception, and decision making. Neuroscience, the study of the brain, seeks to find and understand correlations between brain activity and these mental states, grounding the mind in material basis (Rainey et al., 2020). Neurotechnology refers to the means and devices with varying degrees of invasiveness used to interact with the brain and its activity. Common methods include chips implanted directly in the brain or electrical sensors on top of the scalp. In this paper, two types of neurotechnology will be discussed. Neural surveillance refers to the monitoring and possible reconstruction of a person’s mental states, often involving machine learning models to process electrical brain activity to predict an individual’s speech, motor plans, decision intentions, memories, emotional states, or even sensations (Rainey et al., 2020). Neural interference, on the other hand, refers to direct interaction between machines and neurons aiming to modify brain activity itself, often involving neural surveillance and subsequent regulation according to some desired state (Heikkilä, 2021). Neural surveillance is somewhat reminiscent of “mind-reading” and neural interference of “mind-control” in science fiction or dystopian novels. Like all technologies, neurotech is not political in its own right; what matters is how it’s used. For example, Brain-Computer Interfaces (BCI), systems that surveil and directly translate brain signals into commands for some sort of external device, can be crucial in medical advancements, such as communication with comatose patients or prosthetics use for paralyzed individuals. Similarly, neural interference can be used to tackle troublesome illnesses such as Alzheimer’s and Parkinson’s disease (Heikkilä, 2021). However, extended applications of neurotech raise some serious ethical, political, and social concerns, especially when considered as a new tool of surveillance capitalism.</p>
+
+<p>Using Zuboff’s framework, the establishment of neurotechnology could open up neural data as a new frontier of surveillance capitalism, an untapped source for raw behavioral surplus. But the implications of neurotech in surveillance capitalism are distinct– it creates an entirely new dimension of detail, accuracy, and intrusion. Previously, surveillance capitalism fed on digital, real-world, and then social-world behavior, breaching our privacy in each of these worlds (Zuboff, 2019). But the possible privacy breach of neurotechnology extends beyond what a person does to who a person is at a fundamental level. Inner experience– thoughts, ideas, emotions, and opinions– are integral to self-perception and identity. Without cognitive privacy, we would have nothing left of ourselves for just ourselves. Invasion of the mind is completely <em>unprecedented</em>; privacy of the mind is protected in a way behavior isn’t.</p>
+
+<p>Current surveillance capitalism revolves primarily around processing behavioral surplus to produce prediction products about individual behavior for improved targeting of advertisements. More surveillance and data leads to more comprehensive profiles for each consumer, which then leads to more accurate prediction products. Essentially, a detailed personal profile increases revenue made off that person in the future behavior market (Zuboff, 2019). Currently, outside of subconscious or other instinctual behaviors, behavioral surplus is based on “signs [a] person externalizes intentionally,” and “access to another’s inner thinking remains inaccessible, it being possible only to make predictions about that” (Rainey et al., 2020). Neurotechnology opens up this frontier with a source of surplus that is “as unvarnished and intimate an insight into a person as it is possible to acquire” (Rainey et al., 2020). With access to our innermost mental states, like direct intentions, thoughts, or emotions, neural surveillance provides a new dimension of detail to prediction products, increasing accuracy and specificity of predicted behavior and resultant targeting to an unprecedented level (Rainey et al., 2020). This new context combined with the dynamic possibility of real-time surveillance enables hyper-personalized targeting; for example, instead of ads based on browsing, ads could be tailored to an individual’s real-time emotional state (Rainey et al., 2020). Although neurotech research and development currently faces some major hurdles, such as the limitations of brain data in representing entire mental states or the handling of neural patterns from uncontrolled stimuli and non-experimental situations, the field has already made some surprising advancements: last year, neuroscientist Dr. Alexander Huth developed an AI-based decoder using GPT-1 that successfully translated brain activity into a continuous stream of text, and in 2022, a man with ALS successfully used a computer independently through a BCI (Rainey et al., 2020) (Devlin, 2023) (Quinn, 2024). While we are not yet at the state of fully “recreating streams of consciousness,” with ongoing evolutions of AI and surveillance capitalism, the prospect may not be as far off as it seems (Rainey et al., 2020).</p>
+
+<p>As previously discussed, invasion of cognitive privacy would be an unprecedented violation as ownership over our thoughts is treated as a given. Is this intrinsic claim over our minds enough to protect them from the unilateral robbing of surveillance capitalism? Or, as with every violation of privacy and decision rights before it, will our right to cognitive privacy ultimately fall to the dispossession cycle? Incursion in the dispossession cycle needs to start with “consensual” use of technology. Neural data can’t just be taken out of nowhere.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> In the same way digital surveillance requires the use of digital technologies, neural surveillance and interference first needs to be “let in” by the use of neurotechnology, whether through implanted chips or overhead sensors. In previous situations, this step was simple. Incursion started with seduction, such as the price of Google or the convenience of phones, leading to what Zuboff called a “draconian quid pro quo.” For neurotechnology, besides assistance for specific medical concerns, commercial applications are being similarly designed. Currently, neurotechnologies “already available for research and for consumer purposes that use brain data to control software and hardware [and] those that display data for user’s purposes as neurofeedback” (Rainey et al., 2020). Neurotech wearables for real-time brain measurement linked to health and wellness monitoring have already entered the market, and BCIs for users to operate computers with their minds were projects of major tech companies like Facebook and Google (Heikkilä, 2021). Most notably, Elon Musk’s company Neuralink has already successfully used brain implanted chips to allow a monkey to play a video game with its mind and tested the implant on its first patient just this year (Heikkilä, 2021)(Quinn, 2024). If health monitoring and BCIs are not attractive enough to overcome aversion to neural surveillance, neuroenhancement (e.g. boosted “intelligence” with AI implanted chips or artificially photographic memory) or easily modifiable “realities,” each with wide philosophical issues in their own right, are some of the possible future applications of neurotech that could shift the foundation and normalized functioning of society and, more importantly, motivate the widespread adoption of neurotechnology for commercial purposes.</p>
+
+<p>Once neurotechnologies are let in, the increase in predictive accuracy would not be the main benefit of neural data for surveillance capitalism. After all, for predicting behavior, behavioral data is already somewhat substantial, and the added cognitive context from neural data is less impactful than neural data as a new interface for neural and behavioral modification. As in previous developments of surveillance capitalism, after technology has been established and sources of surveillance are steady, corporations work on gathering instrumentarium power, where through predictive products combined with manipulation techniques, tech companies are able to shape behavior and thought at a subconscious level (Zuboff, 2019). But with neural data, instead of nudging based on observed behavior, a deeper, more immediate level of psychological manipulation is available, possibly shifting the output of surveillance capitalism from prediction products to guaranteed outcomes (Rainey et al., 2020). Invasion of cognitive privacy is like the theft of digital data: it “does not create any sensation, it does not leave a visible trace, there is no absence to bear” (Veliz, 2020). With real-time data, neural surveillance can be used to anticipate and neural interference to influence decisions before they are even consciously made, intervening in our thoughts in untraceable ways. When neurotech combines prediction products built from surveillance with interference techniques, manipulation similar to subconscious nudging could occur, but to an even more imperceptible degree; this forms a closed loop, where interference depends on surveillance (Roelfsema, Denys, Klink, 2018). In 2013, by designing a video game with certain subliminal cues and recording brain activity while searching for and processing a specific type of signal (P300 waves) in response to those cues, researchers were able to extract confidential information like bank PIN numbers from players without their knowledge (Rainey et al., 2020). Additionally, the Department of Defense is currently developing technology to tweak memories, and other research aims to modify perception to restore or artificially supplement sensory information, like sight, audio, or even touch for those with impaired senses (Heikkilä, 2021)(Roelfsema, Denys, Klink, 2018). In 2019, “Rafael Yuste successfully implanted images directly into the brains of mice and controlled their behavior,” and researchers have also molded desired behavior in mice and monkeys by activating neurons that process rewards and punishments (Heikkilä, 2021)(Roelfsema, Denys, Klink, 2018). All these current examples demonstrate how neural interference is a not-so-unlikely possibility that risks a complete autonomous invasion with much stronger possibilities for behavior and mental state modification than is currently possible. If brain manipulation eventually constituted brain-control, the degree of theoretical and philosophical dilemmas that would occur are not even predictable from current knowledge.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> For one, this heightened degree of “neural nudging” and manipulation through covert neural interference could transform the product of surveillance capitalism from prediction products to actual behavioral products, the ultimate guarantee for revenue. While neural interference is currently less likely than surveillance, once neurotech gains access to our brains, the tendrils of surveillance and interference can fester and spread tracelessly, and by the time they are detected, it may already be too late to erase their influence.</p>
+
+<p>Traditional surveillance capitalism threatens our humanity, individual autonomy, and democracy by limiting our free will, ability to make personal decisions, and experiences of intimacy, solitude, and boundaries between self and market (Zuboff, 2019). The addition of neural surveillance aggravates these threats, attacking privacy, cognitive liberty, free deliberation, self-conception, autonomy, and agency (Rainey et al., 2020). It also raises security concerns as the brain contains sensitive information. By making our thoughts effectively public, neuro-surveillance opens us up to the dystopian policing of Orwell’s <em>1984</em>. We lose the freedom to think for ourselves without the threat of consequences, which is key to autonomous control over deliberation and agency over intentional action. To have a mind and act as an agent requires personally reasoned opinions, including reflection over things we wish to reject. But with neural surveillance, such reflections risk decontextualization (Rainey et al., 2020). Neurotechnology also suggests “objective legibility” of our minds, a dehumanizing reduction of self that raises concerns of misrepresentation if mental readings are taken out of context and treated as more genuine than a person’s voluntary, verbal account (Rainey et al., 2020). To take things further, neural interference directly removes autonomy by exerting untraceable influence in shaping our opinions or even altering our perception of the world, infringing on our ability to think independently and see reality (Rainey et al., 2020). Even if neural interference were consensual, like neural assistance with an AI agent, these issues of autonomy and misrepresentation still stand, along with the question of responsibility. With such neurotechnology, corporations would hold “totalitarian potential to control thought,” with a “blurred line between voluntary action and involuntary manipulation,” a threat to democracy especially heightened considering the stance of many in the technology field (Veliz, 2020).</p>
+
+<p>Examining the current and future state of neurotechnology within the framework of surveillance capitalism will hopefully arm policymakers and other members of society with preparation for the threats of neurotech. The prospect of neural surveillance and interference is not as far off as it may seem, and “anticipation of future high stakes developments [is crucial] to avoid a ‘delay fallacy’” (Rainey et al., 2020). Neurotech is already on the market, and databases with brain-derived data are already being created (Rainey et al., 2020). Previously, the success of surveillance capitalism relied on the lack of relevant law and regulations protecting our privacy and decision rights (Zuboff, 2019). Now, the mistakes of the past will hopefully inform the present and future. “We want to do something a little bit more intelligent than wait until we have a problem and then try to fix it when it’s too late, which is what happened with the internet and privacy and AI” (Heikkilä, 2021). Authority over and protected access to personal thought is “widely assumed [as] unique and privileged,” but it can’t just be taken for granted (Rainey et al., 2020). By grasping this opportunity to explicitly establish these integral rights to cognitive privacy before corporations can declare their right to invade as an inevitable consequence of technology, not only will the incursion of surveillance capitalism and neurotech be regulated, but resistance against incursion will also have appropriate grounding in law and policy.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> This cause has the advantage of previous knowledge as well as an unprecedentedly strong, innate agreement with the right to mental privacy. Currently, campaigners like the Neurorights Initiative and groups like The Morningside Group, which including clinicians, ethicists, representatives from Google, and neurotechnologists from various global research projects, are discussing the ethics of neurotech and advocating for guaranteed cognitive privacy (Heikkilä, 2021)(Yuste et al., 2017). On a national level, Colorado, California, Minnesota, and the American Privacy Rights Act have all explicitly included neural data in the definition of “sensitive data” in the past year (Quinn, 2024). Action is also happening on an international level: so far, Chile has guaranteed neuro-rights and protection from AI control while also creating a registration system for neurotech and requiring user-consent from both patient and doctor; Spain adopted a nonbinding Charter for Digital Rights protecting neural data as a guide for future legislation; and The Organisation for Economic Co-operation and Development, a Paris-based group of many leading countries, approved nonbinding guidelines on neurotechnology with new protective rights to privacy and cognitive liberty (Heikkilä, 2021).</p>
+
+<p>While the establishment of rights to cognitive privacy is currently the most important step against neural dispossession of surveillance capitalism, existing legislation must also be re-examined for the context of neurotech. One proposed update would be to the European Convention of Human Rights’s right to respect private life to include the right to cognitive privacy, while The Morningside Group also suggests similar review for ethical research standards, like the Declaration of Helsinki, the Belmont Report, and the Asilomar AI statement of cautionary principles (Yuste et al., 2017)(Heikkilä, 2021). Also, additional “regulatory systems must be put in place to anticipate neurotech-specific issues– how they are presented, how they work, and what sorts of applications they ought to be circumscribed from,” a conversation that should include “representatives from all sectors of society” (Rainey et al., 2020)(Yuste et al., 2017). Strict user control over neurotech should be required and demonstratable, specifically control over device activation, usage, and veto– ‘veto control’ is the“fine-grained ability to select what exactly is output by such devices”, maintaining autonomy and responsibility over technology-mediated action (Rainey et al., 2020). The Morningside Group states “the ability to opt out of sharing should be the default choice, and assiduously protected” for all neural data, and the “the sale, commercial transfer, and use of neural data” should be strictly regulated, even covering the voluntary sale of cognitive liberty for financial reward (similar to prohibition of sale of human organs) (Yuste et al., 2017). They also suggest using weapons of mass destruction as precedent for “building international consensus and incorporating public opinion into scientific decision-making at the national level” (Yuste et al., 2017). Legal ramifications for violations must be enforced, and regulations should hold up even in times of immediate emergency, unlike the previous sacrifice of privacy during 9/11 and the pandemic (Veliz, 2020). Additionally, medical device regulation and data protection laws need to be introduced, and policymakers must address the distinction between recreational commercial use and assistive use necessary for higher fulfillment of life (Rainey et al., 2020).</p>
+
+<p>These distinct neurotech applications would require different political approaches. While brain data in the medical setting is protected by HIPAA, “these protections do not apply in a commercial context,” which is generally governed by the FTC (Quinn, 2024). One interesting although rather unlikely proposal is the complete ban of commercial use of neurotechnology developed “outside of an ethically regulated context such as that of a university research lab,” like BCIs for video games (Rainey et al., 2020). The benefits of neurotech should be clearly identified and weighed against the dangers before continued development. Currently, the only neurotechnologies that seem to cause more good than harm would be assistive for alleviating disability or disadvantage, especially since market forces have clearly demonstrated insufficient ethical regulation of commercial technology (Rainey et al., 2020). Hypothetically, a ban of private neurotech development could gain some support from the consumer side, as seductive benefits of commercial neurotechnologies have yet to pervade. But many private corporations would undoubtedly oppose, and they hold a lot of power. Another problem is private corporations will likely lead in neurotech development, even in assistive applications, so banning private development would severely limit the possible beneficial advancements (Rainey et al., 2020). Private corporations have the power to overcome many major limitations of academic research. For example, fragments of brain data are often not sufficiently comprehensive images of the mind, making more information– such as behavioral data, or even, as some argue, the brain’s genesis, its entire neural and hormonal life history– necessary for meaningful and personalizable inferences (Rainey et al., 2020). With personal profiles of behavioral data from previous surveillance, tech companies leading in surveillance capitalism can effectively negate this problem, while it’s more difficult for researchers to collect data to the required level of detail. Moreover, identification of meaningful patterns in neural data is non-trivial, especially in uncontrolled situations with noisy data and unfamiliar stimuli (Rainey et al., 2020). Because modern neuroscience has not yet fully understood representations of mental states in the brain, the role of AI in recognizing and decoding relevant neural signals and patterns is crucial to translating neural data. By leading in AI, tech corporations also gain advantage in its applications in neurotechnology. Therefore, the success of neurotechnology will likely depend on private tech corporations.</p>
+
+<p>With neural data as a source of behavioral surplus, surveillance capitalism will gain an unprecedented level of power and profit over the final untouched frontier of the mind. Neural surveillance would lead to a new dimension of hyper-personalized, real-time predictions while neural interference could offer modification and possible control over cognition and behavior. Despite some limitations, the current state of neurotechnology has made some significant advancements, and future threats may be looming. With an understanding of the logic of surveillance capitalism, policymakers should start with the establishment of rights to cognitive privacy and control and eventual proposal of new policies and adjustments of previous legislation for neurotechnology specifically to protect society from the unimaginable consequences of cognitive dispossession under surveillance capitalism.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="citations">Citations:</h2>
+
+<p>Zuboff, S. (2019). <em>The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power</em>. PublicAffairs.</p>
+
+<p>Rainey, S., Martin, S., Christen, A., Mégevand, P., &amp; Fourneret, E. (2020). Brain Recording, Mind-Reading, and Neurotechnology: Ethical Issues from Consumer Devices to Brain-Based Speech Decoding. Science and engineering ethics, 26(4), 2295–2311. https://doi.org/10.1007/s11948-020-00218-0</p>
+
+<p>Heikkilä, M. (2021, September 1). Machines can read your brain. There’s little that can stop them. POLITICO. https://www.politico.eu/article/machines-brain-neurotechnology-neuroscience-privacy-neurorights-protection/</p>
+
+<p>Veliz, C. (2020). <em>Privacy is Power: Why and How You Should Take Back Control of Your Data</em>. Transworld Publishers.<br />
+Roelfsema, P. R., Denys, D., &amp; Klink, P. C. (2018). Mind Reading and Writing: The Future of Neurotechnology. <em>Trends in Cognitive Sciences</em>, 22(7), 598–610. https://doi.org/10.1016/j.tics.2018.04.001</p>
+
+<p>Quinn, E. (2024, August 14). <em>Mind matters: Mental privacy in the era of brain tracking technologies. Center for Democracy and Technology</em>. https://www.cdt.org/blog/mind-matters-mental-privacy-in-the-era-of-brain-tracking-technologies/</p>
+
+<p>Devlin, H. (2023, May 1). <em>AI makes non-invasive mind-reading possible by turning thoughts into text</em>. The Guardian. https://www.theguardian.com/your-article-url</p>
+
+<p>Yuste, R., Goering, S., Arcas, B. A. Y., Bi, G., Carmena, J. M., Carter, A., Fins, J. J., Friesen, P., Gallant, J., Huggins, J. E., Illes, J., Kellmeyer, P., Klein, E., Marblestone, A., Mitchell, C., Parens, E., Pham, M., Rubel, A., Sadato, N., … Wolpaw, J. (2017). Four ethical priorities for neurotechnologies and AI. <em>Nature (London)</em>, 551(7679), 159–163. https://doi.org/10.1038/551159a</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Some believe in the NSA’s work with remote neural data collection, which can supposedly measure electrical activity in the brain from afar; this is more of a conspiracy theory, however, and is especially unlikely for commercial use. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>The brain is the foundation for the way we see the world, the way we think about it, and the way we respond to it; tampering with our brains and our control over our brains could lead to ethical and existential concerns, such as questions of consciousness, slavery, and theories of existence (like the simulation theory). <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>This right must also apply to neural invasion from the state, which could use surveillance for cognitive policing, law enforcement, warfare, and much more, whether through information extraction, memory policing, lie detection, personalizing methods of torture and manipulation, or even a “neural augmentation arms race” of ‘super-intelligent agents.’ <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
+  <div class="border-top-thick">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/ihsu1">ihsu1</a></p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+          <a href="https://www.linkedin.com/in/ingrid-hsu/" target="_blank" class="linkedin-link" aria-label="LinkedIn Profile">
+            <img src= "/assets/images/linkedin-icon.png" style="width: 30px; height: 30px;"/>
+          </a>
+        </li>
+        <li class="inline-block mr-1">
+          <a href="https://github.com/ihsu1" target="_blank" class="github-link" aria-label="GitHub Profile">
+            <img src="/assets/images/github-icon.png" style="width: 30px; height: 30px;"/>
+          </a>
+        </li>
+        <li class="inline-block mr-1">
+          <a href="mailto:ingridhsu8@gmail.com" class="email-link" aria-label="Email">
+            <img src="/assets/images/email-icon.png" alt="ingridhsu8@gmail.com" style="width: 30px; height: 30px;" />
+          </a>
+        </li>
+        </li>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
