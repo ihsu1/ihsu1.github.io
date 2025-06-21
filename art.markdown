@@ -9,9 +9,9 @@ permalink: /art/
 
 In addition to my work in computer science, I have a strong interest in visual art and creative expression. Drawing and paiting have been long-time passions of mine, and they often influence how I approach problems and new situations. This page leads to a collection of personal artwork — a creative outlet that complements my technical projects and reflects the visual side of how I engage with the world creatively.
 
-[Breadth] (/art/breadth)
-[Series] (/art/series/)
-[Artist Curriculum Vitae] (/art/art_cv/)
+[Breadth](/art/breadth) | 
+[Series](/art/series/) | 
+[Artist Curriculum Vitae](/art/art_cv/)
 
 
 # Artist Statement
