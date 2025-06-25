@@ -9,14 +9,14 @@
   <link rel="icon" href="/assets/images/icon.png" type="image/x-icon">
   <link rel="shortcut icon" href="/assets/images/icon.png" type="image/x-icon">
 
-  <title>QuickSort and Big-O</title>
-  <meta name="description" content="This project was the fourth lab (and first partner lab!) of my CPSC 035 Data Structures and Algorithms course. The task was to test and implement the Quick S...">
+  <title>Essays</title>
+  <meta name="description" content="Computer Science and Philosophy double major at Swarthmore College interested in AI, cognitive science, and tech ethics.">
 
   
   
   <link rel="stylesheet" href="http://localhost:4000/assets/style.css">
 
-  <link rel="canonical" href="http://localhost:4000/projects/2024/09/25/QuickSort.html">
+  <link rel="canonical" href="http://localhost:4000/essays/">
   <link rel="alternate" type="application/rss+xml" title="Ingrid Hsu" href="http://localhost:4000/feed.xml">
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -266,7 +266,7 @@
       
         
           <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
-            <a class="italic h4 no-underline " href="/essays/">
+            <a class="italic h4 no-underline bold" href="/essays/">
               Essays
             </a>
 
@@ -295,55 +295,293 @@
 </header>
 
     <div>
-      <article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="mt-4 mb-2 clearfix header-text">
-    <h1 class="h0 inline-block py-0 mt-2 header-title">QuickSort and Big-O</h1>
-    <div class="clearfix mb-0 py-0">
-      <p class="h4 lh-condensed"><time datetime="2024-09-25T00:00:00-04:00" itemprop="datePublished">Sep 25, 2024</time></p>
-      <div class="col-1 sm-width-full border-top-thick">
-      </div>
-    </div>
+      <!-- <header class="px-2 clearfix"> -->
+
+  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
+    <a class="no-underline-hover px-1" href="/">
+      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
+    </a>
+    <a class="italic no-underline" href="/">
+       home
+    </a>
+  </div> -->
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0"> -->
+    <!-- <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+        <a class="italic h4 bold no-underline" href="/"> -->
+          <!-- Ingrid Hsu -->
+          <!-- Home
+        </a>
+      </li>
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/">
+            Art
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/art_cv">
+            Art Curriculum Vitae
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/brain_invaders/">
+            Brain Invaders: The Final Frontier of Surveillance Capitalism
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/breadth/">
+            Breadth
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/contact/">
+            Contact
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/education/">
+            Education
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/">
+            Essays
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/resume/">
+            Résumé
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series1/">
+            Series 1- Life Through Machines
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/art/series2/">
+            Series 2- Inorganic Anatomy
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="/essays/shadows_on_the_screen/">
+            Shadows on the Screen: Truth, Technology, and the New Cave
+          </a>
+        </li>
+        
+      
+        
+      
+        
+       -->
+    <!-- </ul>
   </div>
+</header> -->
 
-  <div class="prose py-4" itemprop="articleBody">
-      <p>This project was the fourth lab (and first partner lab!) of my CPSC 035 Data Structures and Algorithms course. The task was to test and implement the Quick Sort algorithm and complete an accompanying written section on Big-O complexity. The goal of this lab was to gain familiarity the following:</p>
-<ul>
-  <li>the Quick Sort algorithm</li>
-  <li>Writing unit tests</li>
-  <li>Forrmal Big-O proofs</li>
-  <li>Using basic LaTeX</li>
-  <li>Partner etiquette in team labs</li>
-</ul>
+<header class="px-2 clearfix">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3 list-reset">
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/">
+              Home
+            </a>
 
-<p>Due to class policy, please reach out for the code!</p>
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/about/">
+              About
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/contact/">
+              Contact
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/education/">
+              Education
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/projects/">
+              Projects
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/resume/">
+              Résumé
+            </a>
+
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline " href="/art/">
+              Art
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/breadth/">
+                      Breadth
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series1/">
+                      Series 1- Life Through Machines
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/series2/">
+                      Series 2- Inorganic Anatomy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/art/art_cv/">
+                      Art Curriculum Vitae
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li class="inline-block block-lg text-right ml-1 ml-lg-0 relative nav-item">
+            <a class="italic h4 no-underline bold" href="/essays/">
+              Essays
+            </a>
+
+            
+              <ul class="dropdown">
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/brain_invaders/">
+                      Brain Invaders: The Final Frontier of Surveillance Capitalism
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="italic no-underline h5" href="/essays/shadows_on_the_screen/">
+                      Shadows on the Screen: Truth, Technology, and the New Cave
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      
+    </ul>
+  </div>
+</header>
+
+<article class="container mx-auto px-2">
+
+  <div class="mt-4 mb-2 clearfix header-text">
+  <h1 class="h0 inline-block py-0 mt-2 header-title">Essays</h1>
+  <div class="clearfix mb-0 py-0">
+    <div class="col-1 sm-width-full border-top-thick">
+  </div>
+</div>
+
+
+  <div class="prose mb-4 py-4">
+    <p>Alongside my work in computer science, I’ve explored topics in philosophy and political science that intersect with technology, ethics, and society. These essays reflect my interest in the broader implications of technology— how it shapes human behavior, power structures, and our understanding of agency and responsibility. Writing helps me think critically and contextually about the systems I build and work with, grounding my technical work in a wider intellectual framework.</p>
+
+<p><a href="/essays/brain_invaders/">Brain Invaders: The Final Frontier of Surveillance Capitalism</a></p>
+
+<p><a href="/essays/shadows_on_the_screen/">Shadows on the Screen: Truth, Technology, and the New Cave</a></p>
 
   </div>
 </article>
-
-<div class="container mx-auto px-2 py-2 clearfix">
-  <!-- Use if you want to show previous and next for all posts. -->
-
-
-
-  <div class="col-4 sm-width-full left mr-lg-4 mt-3">
-    <a class="no-underline-hover py-1 block" href="http://localhost:4000/projects/2024/09/20/Shapes.html">
-      <span class="h5 bold">Previous</span>
-      <p class="bold h3 link-primary mb-1">Shapes</p>
-      <p>This project was the third lab of my CPSC 035 Data Structures and Algorithms course. The task was to design...</p>
-    </a>
-  </div>
-  
-  
-  <div class="col-4 sm-width-full left mt-3">
-    <a class="no-underline-hover py-1 block" href="http://localhost:4000/projects/2024/10/04/Asciimation.html">
-      <span class="h5 bold">Next</span>
-      <p class="bold h3 link-primary mb-1">Asciimation</p>
-      <p>This project was the fifth overall (and second partnered) lab of my CPSC 035 Data Structures and Algorithms course. The...</p>
-    </a>
-  </div>
-
-
-</div>
 
     </div>
 
