@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-25T09:55:01-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ingrid Hsu</title><subtitle>Computer Science and Philosophy double major at Swarthmore College interested in AI, cognitive science, and tech ethics.</subtitle><entry><title type="html">x86_64 Assembly</title><link href="http://localhost:4000/projects/2025/02/28/x86_64-Assembly.html" rel="alternate" type="text/html" title="x86_64 Assembly" /><published>2025-02-28T00:00:00-05:00</published><updated>2025-02-28T00:00:00-05:00</updated><id>http://localhost:4000/projects/2025/02/28/x86_64%20Assembly</id><content type="html" xml:base="http://localhost:4000/projects/2025/02/28/x86_64-Assembly.html"><![CDATA[<p>This project was the fifth lab of my CPSC 031 Introduction to Computer Systems course. The task was to write sum and compare functions with assembly code.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-28T15:32:08-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ingrid Hsu</title><subtitle>Computer Science and Philosophy double major at Swarthmore College interested in AI, cognitive science, and tech ethics.</subtitle><entry><title type="html">Parallel Game of Life</title><link href="http://localhost:4000/projects/2025/04/25/Parallel-Game-of-Life.html" rel="alternate" type="text/html" title="Parallel Game of Life" /><published>2025-04-25T00:00:00-04:00</published><updated>2025-04-25T00:00:00-04:00</updated><id>http://localhost:4000/projects/2025/04/25/Parallel%20Game%20of%20Life</id><content type="html" xml:base="http://localhost:4000/projects/2025/04/25/Parallel-Game-of-Life.html"><![CDATA[<p>This project was the tenth lab of my CPSC 031 Introduction to Computer Systems course, which built off Lab 7. The task was to implement a parallel version of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a>, a discrete event simulation where cells are born, live, and die based based on their surrounding neighbors. 
+The overall goals of this lab were to:</p>
+<ul>
+  <li>Parallelize a shared-memory application using the pthreads library.</li>
+  <li>Protect threaded code with synchronization primitives.</li>
+  <li>Revisit 2D arrays and file I/O in C.</li>
+  <li>Gain more expertise with C pointers and dynamic memory allocation.</li>
+  <li>Design input files to test the correctness of the solution.</li>
+  <li>Practice debugging threaded programs.</li>
+  <li>Design and run parallel performance experiments</li>
+</ul>
+
+<p>Due to class policy, please reach out for the code.</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the tenth lab of my CPSC 031 Introduction to Computer Systems course, which built off Lab 7. The task was to implement a parallel version of Conway’s Game of Life, a discrete event simulation where cells are born, live, and die based based on their surrounding neighbors. The overall goals of this lab were to: Parallelize a shared-memory application using the pthreads library. Protect threaded code with synchronization primitives. Revisit 2D arrays and file I/O in C. Gain more expertise with C pointers and dynamic memory allocation. Design input files to test the correctness of the solution. Practice debugging threaded programs. Design and run parallel performance experiments]]></summary></entry><entry><title type="html">C Shell</title><link href="http://localhost:4000/projects/2025/04/18/C-Shell.html" rel="alternate" type="text/html" title="C Shell" /><published>2025-04-18T00:00:00-04:00</published><updated>2025-04-18T00:00:00-04:00</updated><id>http://localhost:4000/projects/2025/04/18/C%20Shell</id><content type="html" xml:base="http://localhost:4000/projects/2025/04/18/C-Shell.html"><![CDATA[<p>This project was the ninth lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement a Unix shell program that repeatedly printed a prompt, read and parsed the user inputed command string, and performed built-in shell commands on its own or forked a child process to execute non built-in commands (either in foreground or background). 
+The overall goals of this lab were to:</p>
+<ul>
+  <li>Learn how a Unix shell program works by writing one, including the following features:
+    <ul>
+      <li>Executing commands that run in the foreground and the background.</li>
+      <li>Executing built-in commands exit, cd, and history.</li>
+    </ul>
+  </li>
+  <li>Learn how to create and reap processes with the fork, execvp, waitpid system calls.</li>
+  <li>Interact with signals and write signal handler code.</li>
+  <li>Use gdb and valgrind for debugging C programs.</li>
+</ul>
+
+<p>Due to class policy, please reach out for the code.</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the ninth lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement a Unix shell program that repeatedly printed a prompt, read and parsed the user inputed command string, and performed built-in shell commands on its own or forked a child process to execute non built-in commands (either in foreground or background). The overall goals of this lab were to: Learn how a Unix shell program works by writing one, including the following features: Executing commands that run in the foreground and the background. Executing built-in commands exit, cd, and history. Learn how to create and reap processes with the fork, execvp, waitpid system calls. Interact with signals and write signal handler code. Use gdb and valgrind for debugging C programs.]]></summary></entry><entry><title type="html">Parsecmd Library</title><link href="http://localhost:4000/projects/2025/04/11/Parsecmd-Library.html" rel="alternate" type="text/html" title="Parsecmd Library" /><published>2025-04-11T00:00:00-04:00</published><updated>2025-04-11T00:00:00-04:00</updated><id>http://localhost:4000/projects/2025/04/11/Parsecmd%20Library</id><content type="html" xml:base="http://localhost:4000/projects/2025/04/11/Parsecmd-Library.html"><![CDATA[<p>This project was the eighth lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement the parse_cmd_dynamic function from the parsecmd library that takes a command line string and parses it into a dynamically allocated argv array. The function also takes in a pass-by-pointer parameter (bg) to indicate whether the function should be run in the background. 
+The overall goals of this lab were to:</p>
+<ul>
+  <li>Learn how to implement a C library (.h and .c files), and then use the library in a program.</li>
+  <li>Learn more about C strings and char types, and use and C ctype and string library functions in programs.</li>
+  <li>Gain more expertise with dynamic memory allocation and pointers in C.</li>
+  <li>Further practice gdb and valgrind for debugging C programs.</li>
+</ul>
+
+<p>Due to class policy, please reach out for the code.</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the eighth lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement the parse_cmd_dynamic function from the parsecmd library that takes a command line string and parses it into a dynamically allocated argv array. The function also takes in a pass-by-pointer parameter (bg) to indicate whether the function should be run in the background. The overall goals of this lab were to: Learn how to implement a C library (.h and .c files), and then use the library in a program. Learn more about C strings and char types, and use and C ctype and string library functions in programs. Gain more expertise with dynamic memory allocation and pointers in C. Further practice gdb and valgrind for debugging C programs.]]></summary></entry><entry><title type="html">Game of Life</title><link href="http://localhost:4000/projects/2025/03/28/Game-of-Life-copy.html" rel="alternate" type="text/html" title="Game of Life" /><published>2025-03-28T00:00:00-04:00</published><updated>2025-03-28T00:00:00-04:00</updated><id>http://localhost:4000/projects/2025/03/28/Game%20of%20Life%20copy</id><content type="html" xml:base="http://localhost:4000/projects/2025/03/28/Game-of-Life-copy.html"><![CDATA[<p>This project was the seventh lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement a program to play <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a>, a discrete event simulation where cells are born, live, and die based based on their surrounding neighbors. 
+The overall goals of this lab were to:</p>
+<ul>
+  <li>Gain experience using 2D arrays (implemented as a contiguous chunk of N*M cells) and command-line arguments.</li>
+  <li>Learn how to use a visualization library.</li>
+  <li>Improve proficiency in C file I/0, pointers, dynamic memory allocation, and passing pointers to functions.</li>
+  <li>Further practice using gdb and valgrind for debugging C programs.</li>
+  <li>Use timing code to measure the execution time for parts of program execution.</li>
+  <li>Design input files to test correctness of the solution, with particular consideration of different edge cases.</li>
+</ul>
+
+<p>Due to class policy, please reach out for the code.</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the seventh lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement a program to play Conway’s Game of Life, a discrete event simulation where cells are born, live, and die based based on their surrounding neighbors. The overall goals of this lab were to: Gain experience using 2D arrays (implemented as a contiguous chunk of N*M cells) and command-line arguments. Learn how to use a visualization library. Improve proficiency in C file I/0, pointers, dynamic memory allocation, and passing pointers to functions. Further practice using gdb and valgrind for debugging C programs. Use timing code to measure the execution time for parts of program execution. Design input files to test correctness of the solution, with particular consideration of different edge cases.]]></summary></entry><entry><title type="html">Binary Maze</title><link href="http://localhost:4000/projects/2025/03/20/Binary-Maze.html" rel="alternate" type="text/html" title="Binary Maze" /><published>2025-03-20T00:00:00-04:00</published><updated>2025-03-20T00:00:00-04:00</updated><id>http://localhost:4000/projects/2025/03/20/Binary%20Maze</id><content type="html" xml:base="http://localhost:4000/projects/2025/03/20/Binary-Maze.html"><![CDATA[<p>This project was the sixth lab of my CPSC 031 Introduction to Computer Systems course. The task was to solve a provided series of binary puzzles by analyzing the assembly instructions while avoiding “trip-ups” from incorrect solutions.<br />
+The overall goals of this lab were to:</p>
+<ul>
+  <li>Gain experience reading and tracing through the execution of x86_64 assembly instructions.</li>
+  <li>Practice with tools for examining binary files.</li>
+  <li>Apply GDB skills to solve an assembly code puzzle.</li>
+</ul>
+
+<p>This was my favorite lab of the course– we were the highest scoring group in the class and the only one to complete all six levels (even discovering the hidden one)! And we did it with only 1 trip-up from our first test run.</p>
+
+<p>Due to class policy, please reach out for the code.</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the sixth lab of my CPSC 031 Introduction to Computer Systems course. The task was to solve a provided series of binary puzzles by analyzing the assembly instructions while avoiding “trip-ups” from incorrect solutions. The overall goals of this lab were to: Gain experience reading and tracing through the execution of x86_64 assembly instructions. Practice with tools for examining binary files. Apply GDB skills to solve an assembly code puzzle.]]></summary></entry><entry><title type="html">x86_64 Assembly</title><link href="http://localhost:4000/projects/2025/02/28/x86_64-Assembly.html" rel="alternate" type="text/html" title="x86_64 Assembly" /><published>2025-02-28T00:00:00-05:00</published><updated>2025-02-28T00:00:00-05:00</updated><id>http://localhost:4000/projects/2025/02/28/x86_64%20Assembly</id><content type="html" xml:base="http://localhost:4000/projects/2025/02/28/x86_64-Assembly.html"><![CDATA[<p>This project was the fifth lab of my CPSC 031 Introduction to Computer Systems course. The task was to write sum and compare functions with assembly code.<br />
 The overall goals of this lab were to:</p>
 <ul>
   <li>Gain experience translating C code x86_64 Assembly and go-to functions (and vice versa) to enhance understanding of underlying data structure access, and function calls.</li>
@@ -39,52 +95,4 @@ The goal of this lab was to accomplish the following in C++:</p>
   <li>Write a main program that gracefully handles bad inputs</li>
 </ul>
 
-<p>Due to class policy, please reach out for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the eighth lab of my CPSC 035 Data Structures and Algorithms course. The task was to read in documents and then repeatedly search it for particular keywords, finding the ten most relevant pages that contain that keyword. The goal of this lab was to accomplish the following in C++: Implement the Dictionary ADT through a LinearDictionary Implement the Dictionary ADT through a HashTable Create a KeywordSearcher class that uses these implementations and a PriorityQueue to search documents Write a main program that gracefully handles bad inputs]]></summary></entry><entry><title type="html">Binary Search Trees</title><link href="http://localhost:4000/projects/2024/11/12/BSTs.html" rel="alternate" type="text/html" title="Binary Search Trees" /><published>2024-11-12T00:00:00-05:00</published><updated>2024-11-12T00:00:00-05:00</updated><id>http://localhost:4000/projects/2024/11/12/BSTs</id><content type="html" xml:base="http://localhost:4000/projects/2024/11/12/BSTs.html"><![CDATA[<p>This project was the seventh lab of my CPSC 035 Data Structures and Algorithms course. The task was to implement and test the binary search tree data structure with unit tests and a word-counting program. There was also an accompanying written work section on AVL trees and heaps. The goal of this lab was to practice the following in C++:</p>
-<ul>
-  <li>Implementing BSTs, including 4 traversal methods</li>
-  <li>Writing unit tests</li>
-  <li>Using valgrind to catch memory errors/leaks</li>
-  <li>Understanding balanced BSTs and heaps</li>
-</ul>
-
-<p>Due to class policy, please reach out for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the seventh lab of my CPSC 035 Data Structures and Algorithms course. The task was to implement and test the binary search tree data structure with unit tests and a word-counting program. There was also an accompanying written work section on AVL trees and heaps. The goal of this lab was to practice the following in C++: Implementing BSTs, including 4 traversal methods Writing unit tests Using valgrind to catch memory errors/leaks Understanding balanced BSTs and heaps]]></summary></entry><entry><title type="html">Maze</title><link href="http://localhost:4000/projects/2024/10/29/Maze.html" rel="alternate" type="text/html" title="Maze" /><published>2024-10-29T00:00:00-04:00</published><updated>2024-10-29T00:00:00-04:00</updated><id>http://localhost:4000/projects/2024/10/29/Maze</id><content type="html" xml:base="http://localhost:4000/projects/2024/10/29/Maze.html"><![CDATA[<p>This project was the sixth lab of my CPSC 035 Data Structures and Algorithms course. It was our first two-week lab, and the task had 3 parts:</p>
-<ol>
-  <li>Implementing stack and queue data structures</li>
-  <li>Writing an application to solve a maze using either breadth-first or depth-first search</li>
-  <li>Answering written questions involving induction</li>
-</ol>
-
-<p>The goal of this lab was to gain practice with the following:</p>
-<ul>
-  <li>Stacks and queues</li>
-  <li>Depth-first search</li>
-  <li>Breadth-first search</li>
-  <li>Induction</li>
-</ul>
-
-<p>Due to class policy, please reach out for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the sixth lab of my CPSC 035 Data Structures and Algorithms course. It was our first two-week lab, and the task had 3 parts: Implementing stack and queue data structures Writing an application to solve a maze using either breadth-first or depth-first search Answering written questions involving induction]]></summary></entry><entry><title type="html">Asciimation</title><link href="http://localhost:4000/projects/2024/10/04/Asciimation.html" rel="alternate" type="text/html" title="Asciimation" /><published>2024-10-04T00:00:00-04:00</published><updated>2024-10-04T00:00:00-04:00</updated><id>http://localhost:4000/projects/2024/10/04/Asciimation</id><content type="html" xml:base="http://localhost:4000/projects/2024/10/04/Asciimation.html"><![CDATA[<p>This project was the fifth overall (and second partnered) lab of my CPSC 035 Data Structures and Algorithms course. The task was to write and use a linked list data structure to play an ASCII art animation with text. The goal of this lab was to understand the following in C++:</p>
-<ul>
-  <li>Implementing and testing a linked list</li>
-  <li>Complexity requirements</li>
-  <li>Reading .asciimation format videos</li>
-  <li>Using the STL pair class</li>
-</ul>
-
-<p>Check out the <a href="https://gitfront.io/r/ihsu1/SzSYMTRb73xe/ASCIImation/">Github</a> for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the fifth overall (and second partnered) lab of my CPSC 035 Data Structures and Algorithms course. The task was to write and use a linked list data structure to play an ASCII art animation with text. The goal of this lab was to understand the following in C++: Implementing and testing a linked list Complexity requirements Reading .asciimation format videos Using the STL pair class]]></summary></entry><entry><title type="html">QuickSort and Big-O</title><link href="http://localhost:4000/projects/2024/09/25/QuickSort.html" rel="alternate" type="text/html" title="QuickSort and Big-O" /><published>2024-09-25T00:00:00-04:00</published><updated>2024-09-25T00:00:00-04:00</updated><id>http://localhost:4000/projects/2024/09/25/QuickSort</id><content type="html" xml:base="http://localhost:4000/projects/2024/09/25/QuickSort.html"><![CDATA[<p>This project was the fourth lab (and first partner lab!) of my CPSC 035 Data Structures and Algorithms course. The task was to test and implement the Quick Sort algorithm and complete an accompanying written section on Big-O complexity. The goal of this lab was to gain familiarity the following:</p>
-<ul>
-  <li>the Quick Sort algorithm</li>
-  <li>Writing unit tests</li>
-  <li>Forrmal Big-O proofs</li>
-  <li>Using basic LaTeX</li>
-  <li>Partner etiquette in team labs</li>
-</ul>
-
-<p>Due to class policy, please reach out for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the fourth lab (and first partner lab!) of my CPSC 035 Data Structures and Algorithms course. The task was to test and implement the Quick Sort algorithm and complete an accompanying written section on Big-O complexity. The goal of this lab was to gain familiarity the following: the Quick Sort algorithm Writing unit tests Forrmal Big-O proofs Using basic LaTeX Partner etiquette in team labs]]></summary></entry><entry><title type="html">Shapes</title><link href="http://localhost:4000/projects/2024/09/20/Shapes.html" rel="alternate" type="text/html" title="Shapes" /><published>2024-09-20T00:00:00-04:00</published><updated>2024-09-20T00:00:00-04:00</updated><id>http://localhost:4000/projects/2024/09/20/Shapes</id><content type="html" xml:base="http://localhost:4000/projects/2024/09/20/Shapes.html"><![CDATA[<p>This project was the third lab of my CPSC 035 Data Structures and Algorithms course. The task was to design a hierarchy of classes that allows users to draw various shapes(Point, HorizontalLine, VerticalLine, and Rectangle.) onto a grid printed to the command line. The goal of this lab was to understand the following in C++:</p>
-<ul>
-  <li>Classes and Objects</li>
-  <li>Inheritance</li>
-  <li>Polymorphism</li>
-  <li>Memory management.</li>
-</ul>
-
-<p>Check out the <a href="https://gitfront.io/r/ihsu1/d5gbmr4DrUpk/QuickSort/">Github</a> for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the third lab of my CPSC 035 Data Structures and Algorithms course. The task was to design a hierarchy of classes that allows users to draw various shapes(Point, HorizontalLine, VerticalLine, and Rectangle.) onto a grid printed to the command line. The goal of this lab was to understand the following in C++: Classes and Objects Inheritance Polymorphism Memory management.]]></summary></entry></feed>
+<p>Due to class policy, please reach out for the code!</p>]]></content><author><name></name></author><category term="projects" /><summary type="html"><![CDATA[This project was the eighth lab of my CPSC 035 Data Structures and Algorithms course. The task was to read in documents and then repeatedly search it for particular keywords, finding the ten most relevant pages that contain that keyword. The goal of this lab was to accomplish the following in C++: Implement the Dictionary ADT through a LinearDictionary Implement the Dictionary ADT through a HashTable Create a KeywordSearcher class that uses these implementations and a PriorityQueue to search documents Write a main program that gracefully handles bad inputs]]></summary></entry></feed>

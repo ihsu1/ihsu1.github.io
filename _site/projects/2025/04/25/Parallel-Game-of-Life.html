@@ -9,14 +9,14 @@
   <link rel="icon" href="/assets/images/icon.png" type="image/x-icon">
   <link rel="shortcut icon" href="/assets/images/icon.png" type="image/x-icon">
 
-  <title>x86_64 Assembly</title>
-  <meta name="description" content="This project was the fifth lab of my CPSC 031 Introduction to Computer Systems course. The task was to write sum and compare functions with assembly code.The...">
+  <title>Parallel Game of Life</title>
+  <meta name="description" content="This project was the tenth lab of my CPSC 031 Introduction to Computer Systems course, which built off Lab 7. The task was to implement a parallel version of...">
 
   
   
   <link rel="stylesheet" href="http://localhost:4000/assets/style.css">
 
-  <link rel="canonical" href="http://localhost:4000/projects/2025/02/28/x86_64-Assembly.html">
+  <link rel="canonical" href="http://localhost:4000/projects/2025/04/25/Parallel-Game-of-Life.html">
   <link rel="alternate" type="application/rss+xml" title="Ingrid Hsu" href="http://localhost:4000/feed.xml">
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -297,23 +297,28 @@
     <div>
       <article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="mt-4 mb-2 clearfix header-text">
-    <h1 class="h0 inline-block py-0 mt-2 header-title">x86_64 Assembly</h1>
+    <h1 class="h0 inline-block py-0 mt-2 header-title">Parallel Game of Life</h1>
     <div class="clearfix mb-0 py-0">
-      <p class="h4 lh-condensed"><time datetime="2025-02-28T00:00:00-05:00" itemprop="datePublished">Feb 28, 2025</time></p>
+      <p class="h4 lh-condensed"><time datetime="2025-04-25T00:00:00-04:00" itemprop="datePublished">Apr 25, 2025</time></p>
       <div class="col-1 sm-width-full border-top-thick">
       </div>
     </div>
   </div>
 
   <div class="prose py-4" itemprop="articleBody">
-      <p>This project was the fifth lab of my CPSC 031 Introduction to Computer Systems course. The task was to write sum and compare functions with assembly code.<br />
+      <p>This project was the tenth lab of my CPSC 031 Introduction to Computer Systems course, which built off Lab 7. The task was to implement a parallel version of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a>, a discrete event simulation where cells are born, live, and die based based on their surrounding neighbors. 
 The overall goals of this lab were to:</p>
 <ul>
-  <li>Gain experience translating C code x86_64 Assembly and go-to functions (and vice versa) to enhance understanding of underlying data structure access, and function calls.</li>
-  <li>Understand in more detail the mechanics of C “pass-by-pointer” style parameters and function calls.</li>
+  <li>Parallelize a shared-memory application using the pthreads library.</li>
+  <li>Protect threaded code with synchronization primitives.</li>
+  <li>Revisit 2D arrays and file I/O in C.</li>
+  <li>Gain more expertise with C pointers and dynamic memory allocation.</li>
+  <li>Design input files to test the correctness of the solution.</li>
+  <li>Practice debugging threaded programs.</li>
+  <li>Design and run parallel performance experiments</li>
 </ul>
 
-<p>Due to class policy, please reach out for the code!</p>
+<p>Due to class policy, please reach out for the code.</p>
 
   </div>
 </article>
@@ -324,22 +329,14 @@ The overall goals of this lab were to:</p>
 
 
   <div class="col-4 sm-width-full left mr-lg-4 mt-3">
-    <a class="no-underline-hover py-1 block" href="http://localhost:4000/projects/2025/02/21/C-Pointers.html">
+    <a class="no-underline-hover py-1 block" href="http://localhost:4000/projects/2025/04/18/C-Shell.html">
       <span class="h5 bold">Previous</span>
-      <p class="bold h3 link-primary mb-1">C Pointers</p>
-      <p>This project was the fourth lab of my CPSC 031 Introduction to Computer Systems course. The task was to use...</p>
+      <p class="bold h3 link-primary mb-1">C Shell</p>
+      <p>This project was the ninth lab of my CPSC 031 Introduction to Computer Systems course. The task was to implement...</p>
     </a>
   </div>
   
   
-  <div class="col-4 sm-width-full left mt-3">
-    <a class="no-underline-hover py-1 block" href="http://localhost:4000/projects/2025/03/20/Binary-Maze.html">
-      <span class="h5 bold">Next</span>
-      <p class="bold h3 link-primary mb-1">Binary Maze</p>
-      <p>This project was the sixth lab of my CPSC 031 Introduction to Computer Systems course. The task was to solve...</p>
-    </a>
-  </div>
-
 
 </div>
 
