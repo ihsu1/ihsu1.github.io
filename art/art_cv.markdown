@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Art Curriculum Vitae
-permalink: /art/art_cv
+permalink: /art/art_cv/
 ---
 
 <iframe src="{{ '/assets/CV.pdf' | relative_url }}" width="100%" height="700px">
